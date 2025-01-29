@@ -16,7 +16,9 @@ public class VendedorComision {
         double venta2 = scanner.nextDouble();
         System.out.print("Ingrese el monto de la venta 3: ");
         double venta3 = scanner.nextDouble();
-        double comision = (venta1 + venta2 + venta3) * 0.10;
+        System.out.print("Ingrese el monto de la venta 4: ");
+        double venta4 = scanner.nextDouble();
+        double comision = (venta1 + venta2 + venta3+ venta4) * 0.10;
          double pagoTotal = sueldoMensual + comision;
        
         System.out.println("\nResultados:");
